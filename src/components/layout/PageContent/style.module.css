@@ -1,0 +1,5 @@
+.PageContent {
+    height: calc(100vh - 50px - 56px);
+    overflow: auto;
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.BottomNavigationPanel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.ComponentContainer {
+    background: #36393f;
+}

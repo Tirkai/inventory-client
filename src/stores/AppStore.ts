@@ -1,5 +1,11 @@
+import { ItemsStore } from "./ItemsStore";
+import { SearchStore } from "./SearchStore";
+
 export class AppStore {
+    items: ItemsStore;
+    search: SearchStore;
     constructor() {
-        console.warn("STORE", this);
+        this.items = new ItemsStore(this);
+        this.search = new SearchStore(this);
     }
 }

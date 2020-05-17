@@ -6,7 +6,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
-    background: #fafafa;
+    background: #2f3136;
+    color: white;
     min-height: 100vh;
     user-select: none;
 }
@@ -14,4 +15,13 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.MuiFormLabel-root {
+    z-index: 1;
 }
